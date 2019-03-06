@@ -176,7 +176,7 @@ describe "#display_board in 'lib/display_board.rb" do
     end
 
     it 'prints an entire board full of Os' do
-      
+
       board = ["O", "O", "O", "O", "O", "O", "O", "O", "O"]
 
       output = capture_puts{ display_board(board) }
@@ -195,7 +195,7 @@ describe "#display_board in 'lib/display_board.rb" do
       # and make a few simple edits to convert the previous example to this
       # example's situation.
 
-      
+
 
       # *** Comment the line below by adding a # at the line start ***
       #expect(true).to be(true)
